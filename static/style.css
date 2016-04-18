@@ -1,7 +1,59 @@
 
+.dashboard-container{
+  width: ~'calc(100% - 32px)';
+  height: ~'calc(100% - 72px)';
+  margin: 12px auto;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.apps-container{
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.app{
+  width: 100%;
+  height: 31%;
+  margin-bottom: 10px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+
+.app.files{
+  background-color: #fff;
+}
+
+.app.chat{
+  background-color: #17acf1;
+}
+
+.app.cosmos{
+  background-color: black;
+}
+
+.app:last-child{
+  margin-bottom: 0px;
+}
 
 .footer{
   width: 100%;
-  height: 95px;
+  height: 48px;
   background-color: black;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer-content{
+  width: 288px;
+  height: 34px;
+  margin: 0px auto;
 }
