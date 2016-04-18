@@ -1,4 +1,10 @@
 
+.center-vertical{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .dashboard-container{
   width: ~'calc(100% - 32px)';
   height: ~'calc(100% - 72px)';
@@ -10,9 +16,6 @@
 
 .apps-container{
   width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .app{
@@ -27,16 +30,87 @@
   box-shadow: 0 2px 8px rgba(0,0,0,.2);
 }
 
+.app .app-logo{
+  width: 194px;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.app .app-logo figure{
+  display: inline-block;
+}
+
+.app .app-divider{
+  width: 2px;
+  height: 128px;
+  float: left;
+}
+
+.app .app-name{
+  width: ~'calc(100% - 196px)';
+  font-family: Lato;
+  font-size: 31px;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+}
+
 .app.files{
   background-color: #fff;
+}
+
+.app.files .app-logo figure{
+  width: 128px;
+  height: 100px;
+  background-image: url('https://static.inevio.com/script/dashboardmobile/static/folder.png');
+  background-size: 128px 100px;
+}
+
+.app.files .app-divider{
+  background-color: #e5e9ea;
+}
+
+.app.files .app-name{
+  color: #545f65;
 }
 
 .app.chat{
   background-color: #17acf1;
 }
 
+.app.chat .app-logo figure{
+  width: 85px;
+  height: 84px;
+  background-size: 85px 84px;
+  background-image: url('https://static.inevio.com/script/dashboardmobile/static/chats.png');
+}
+
+.app.chat .app-divider{
+  background-color: #8bd5f8;
+}
+
+.app.chat .app-name{
+  color: #ffffff;
+}
+
 .app.cosmos{
   background-color: black;
+}
+
+.app.cosmos .app-logo figure{
+  width: 85px;
+  height: 84px;
+  background-size: 85px 84px;
+  background-image: url('https://static.inevio.com/script/dashboardmobile/static/chats.png');
+}
+
+.app.cosmos .app-divider{
+  background-color: #ffffff;
+}
+
+.app.cosmos .app-name{
+  color: #ffffff;
 }
 
 .app:last-child{
@@ -56,4 +130,11 @@
   width: 288px;
   height: 34px;
   margin: 0px auto;
+}
+
+.footer-content .back{
+  width: 24px;
+  height: 20px;
+  background-size: 24px 20px;
+  background-image: url('https://static.inevio.com/script/dashboardmobile/static/back.png');
 }
