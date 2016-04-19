@@ -168,7 +168,7 @@
 @media all and (max-width: 359px) {
 
   .app .app-logo{
-    width: 165px;
+    width: 155px;
   }
 
   .app .app-divider{
@@ -176,7 +176,7 @@
   }
 
   .app .app-name{
-    width: ~'calc(100% - 167px)';
+    width: ~'calc(100% - 157px)';
     font-size: 27px;
   }
 
@@ -194,6 +194,10 @@
     width: 71px;
     height: 70px;
     background-size: cover;
+  }
+
+  .footer-content{
+    width: ~'calc(100% - 100px)';
   }
 
 }
