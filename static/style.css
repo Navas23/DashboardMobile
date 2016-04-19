@@ -127,7 +127,7 @@
 }
 
 .footer-content{
-  width: 288px;
+  width: ~'calc(100% - 70px)';
   height: 34px;
   margin: 0px auto;
 }
@@ -163,4 +163,37 @@
   background-size: 22px 20px;
   background-image: url('https://static.inevio.com/script/dashboardmobile/static/multitask.png');
   float: left;
+}
+
+@media all and (max-width: 359px) {
+
+  .app .app-logo{
+    width: 165px;
+  }
+
+  .app .app-divider{
+    height: 90px;
+  }
+
+  .app .app-name{
+    width: ~'calc(100% - 167px)';
+    font-size: 27px;
+  }
+
+  .app.files .app-logo figure{
+    width: 107px;
+    height: 83px;
+    background-size: cover;
+  }
+  .app.chat .app-logo figure{
+    width: 71px;
+    height: 70px;
+    background-size: cover;
+  }
+  .app.cosmos .app-logo figure{
+    width: 71px;
+    height: 70px;
+    background-size: cover;
+  }
+
 }
