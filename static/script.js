@@ -4,5 +4,5 @@ $('.app').transition({
 },1500);
 
 $( '.dashboard-container' ).transition({
-  'top' : '0'
+  'y' : '0'
 },1500);

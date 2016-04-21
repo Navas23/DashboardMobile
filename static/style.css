@@ -1,4 +1,16 @@
 
+.animated{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  transform: translateZ(0);
+}
+
 .center-vertical{
   position: relative;
   top: 50%;
@@ -13,7 +25,7 @@
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
-  top: 100%;
+  transform: translate3d(0,100%,0);
 }
 
 .apps-container{
