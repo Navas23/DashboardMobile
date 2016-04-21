@@ -12,6 +12,8 @@
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  position: relative;
+  top: 100%;
 }
 
 .apps-container{
@@ -28,6 +30,7 @@
   -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.2);
   -moz-box-shadow: 0 2px 8px rgba(0,0,0,.2);
   box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  opacity: 0;
 }
 
 .app .app-logo{
