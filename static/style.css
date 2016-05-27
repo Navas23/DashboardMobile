@@ -30,6 +30,7 @@
 
 .apps-container{
   width: 100%;
+  height: 100%;
 }
 
 .app{
@@ -78,7 +79,7 @@
 .app.files .app-logo figure{
   width: 128px;
   height: 100px;
-  background-image: url('https://static.inevio.com/script/dashboardmobile/static/folder.png');
+  background-image: url('@static/folder.png');
   background-size: 128px 100px;
 }
 
@@ -98,7 +99,7 @@
   width: 85px;
   height: 84px;
   background-size: 85px 84px;
-  background-image: url('https://static.inevio.com/script/dashboardmobile/static/chats.png');
+  background-image: url('@static/chats.png');
 }
 
 .app.chat .app-divider{
@@ -117,7 +118,7 @@
   width: 85px;
   height: 84px;
   background-size: 85px 84px;
-  background-image: url('https://static.inevio.com/script/dashboardmobile/static/chats.png');
+  background-image: url('@static/chats.png');
 }
 
 .app.cosmos .app-divider{
@@ -151,7 +152,7 @@
   width: 24px;
   height: 20px;
   background-size: 24px 20px;
-  background-image: url('https://static.inevio.com/script/dashboardmobile/static/back.png');
+  background-image: url('@static/back.png');
   float: left;
 }
 
@@ -166,7 +167,7 @@
   width: 30px;
   height: 34px;
   background-size: 30px 34px;
-  background-image: url('https://static.inevio.com/script/dashboardmobile/static/gema.png');
+  background-image: url('@static/gema.png');
   margin-left: auto;
   margin-right: auto;
 }
@@ -176,7 +177,7 @@
   height: 20px;
   margin-left: 2px;
   background-size: 22px 20px;
-  background-image: url('https://static.inevio.com/script/dashboardmobile/static/multitask.png');
+  background-image: url('@static/multitask.png');
   float: left;
 }
 
